@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "name": "The Starry Night",
+      "artist": "Vincent van Gogh",
+      "year": 1889,
+      "medium": "Oil on canvas",
+      "dimensions": "73.7 cm × 92.1 cm",
+      "location": "Museum of Modern Art, New York"
+    },
+    {
+      "id": 2,
+      "name": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "year": 1931,
+      "medium": "Oil on canvas",
+      "dimensions": "24.1 cm × 33 cm",
+      "location": "Museum of Modern Art, New York"
+    },
+    {
+      "id": 3,
+      "name": "Guernica",
+      "artist": "Pablo Picasso",
+      "year": 1937,
+      "medium": "Oil on canvas",
+      "dimensions": "349.3 cm × 776.6 cm",
+      "location": "Museo Reina Sofia, Madrid"
+    },
+    {
+      "id": 4,
+      "name": "The Last Supper",
+      "artist": "Leonardo da Vinci",
+      "year": 1498,
+      "medium": "Tempera on plaster",
+      "dimensions": "460 cm × 880 cm",
+      "location": "Santa Maria delle Grazie, Milan"
+    },
+    {
+      "id": 5,
+      "name": "Mona Lisa",
+      "artist": "Leonardo da Vinci",
+      "year": 1503,
+      "medium": "Oil on poplar",
+      "dimensions": "77 cm × 53 cm",
+      "location": "Louvre Museum, Paris"
+    },
+    {
+      "id": 6,
+      "name": "The Scream",
+      "artist": "Edvard Munch",
+      "year": 1893,
+      "medium": "Oil, tempera, and pastel on cardboard",
+      "dimensions": "91 cm × 73.5 cm",
+      "location": "National Museum, Oslo"
+    },
+    {
+      "id": 7,
+      "name": "The Birth of Venus",
+      "artist": "Sandro Botticelli",
+      "year": 1485,
+      "medium": "Tempera on canvas",
+      "dimensions": "172.5 cm × 278.5 cm",
+      "location": "Uffizi Gallery, Florence"
+    },
+    {
+      "id": 8,
+      "name": "The Creation of Adam",
+      "artist": "Michelangelo",
+      "year": 1512,
+      "medium": "Fresco",
+      "dimensions": "280 cm × 570 cm",
+      "location": "Sistine Chapel, Vatican City"
+    },
+    {
+      "id": 9,
+      "name": "Girl with a Pearl Earring",
+      "artist": "Johannes Vermeer",
+      "year": 1665,
+      "medium": "Oil on canvas",
+      "dimensions": "44.5 cm × 39 cm",
+      "location": "Mauritshuis, The Hague"
+    },
+    {
+      "id": 10,
+      "name": "The Night Watch",
+      "artist": "Rembrandt van Rijn",
+      "year": 1642,
+      "medium": "Oil on canvas",
+      "dimensions": "363 cm × 437 cm",
+      "location": "Rijksmuseum, Amsterdam"
+    },
+    {
+      "id": 11,
+      "name": "Water Lilies",
+      "artist": "Claude Monet",
+      "year": 1915,
+      "medium": "Oil on canvas",
+      "dimensions": "200 cm × 200 cm",
+      "location": "Musée de l'Orangerie, Paris"
+    },
+    {
+      "id": 12,
+      "name": "The Kiss",
+      "artist": "Gustav Klimt",
+      "year": 1907,
+      "medium": "Oil on canvas",
+      "dimensions": "180 cm × 180 cm",
+      "location": "Österreichische Galerie Belvedere, Vienna"
+    },
+    {
+      "id": 13,
+      "name": "The Thinker",
+      "artist": "Auguste Rodin",
+      "year": 1902,
+      "medium": "Bronze",
+      "dimensions": "181.6 cm × 89.2 cm × 144.8 cm",
+      "location": "Musée Rodin, Paris"
+    },
+    {
+      "id": 14,
+      "name": "The Last Supper",
+      "artist": "Jacopo Tintoretto",
+      "year": 1592,
+      "medium": "Oil on canvas",
+      "dimensions": "536 cm × 1224 cm",
+      "location": "Basilica di San Giorgio Maggiore, Venice"
+    },
+    {
+      "id": 15,
+      "name": "The Arnolfini Portrait",
+      "artist": "Jan van Eyck",
+      "year": 1434,
+      "medium": "Oil on oak panel",
+      "dimensions": "82.2 cm × 60 cm",
+      "location": "National Gallery, London"
+    },
+    {
+      "id": 16,
+      "name": "The School of Athens",
+      "artist": "Raphael",
+      "year": 1509,
+      "medium": "Fresco",
+      "dimensions": "500 cm × 770 cm",
+      "location": "Apostolic Palace, Vatican City"
+    },
+    {
+        "id": 17,
+        "name": "The Raft of the Medusa",
+        "artist": "Théodore Géricault",
+        "year": 1819,
+        "medium": "Oil on canvas",
+        "dimensions": "491 cm × 716 cm",
+        "location": "Louvre Museum, Paris"
+      },
+      {
+        "id": 18,
+        "name": "The Lady with an Ermine",
+        "artist": "Leonardo da Vinci",
+        "year": 1489,
+        "medium": "Oil on wood",
+        "dimensions": "54 cm × 39 cm",
+        "location": "Czartoryski Museum, Kraków"
+      },
+      {
+        "id": 19,
+        "name": "The Weeping Woman",
+        "artist": "Pablo Picasso",
+        "year": 1937,
+        "medium": "Oil on canvas",
+        "dimensions": "61 cm × 50 cm",
+        "location": "Tate Modern, London"
+      },
+      {
+        "id": 20,
+        "name": "No. 61 (Rust and Blue)",
+        "artist": "Mark Rothko",
+        "year": 1953,
+        "medium": "Oil on canvas",
+        "dimensions": "195.3 cm × 143.5 cm",
+        "location": "Tate Modern, London"
+      }
+    ]

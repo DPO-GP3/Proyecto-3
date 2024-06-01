@@ -1,0 +1,263 @@
+[
+    {
+      "comprador": {
+        "nombre": "Jane Smith",
+        "limiteCompra": 2000.0,
+        "saldo": 8000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 400.0,
+            "subasta": {
+              "id": 3,
+              "nombre": "Subasta 3",
+              "descripcion": "Descripción de la subasta 3",
+              "fechaInicio": "2023-03-20",
+              "fechaFin": "2023-03-30"
+            }
+          },
+          {
+            "monto": 500.0,
+            "subasta": {
+              "id": 4,
+              "nombre": "Subasta 4",
+              "descripcion": "Descripción de la subasta 4",
+              "fechaInicio": "2023-03-25",
+              "fechaFin": "2023-04-05"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "comprador": {
+        "nombre": "Bob Johnson",
+        "limiteCompra": 1500.0,
+        "saldo": 7000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 300.0,
+            "subasta": {
+              "id": 5,
+              "nombre": "Subasta 5",
+              "descripcion": "Descripción de la subasta 5",
+              "fechaInicio": "2023-03-30",
+              "fechaFin": "2023-04-10"
+            }
+          },
+          {
+            "monto": 400.0,
+            "subasta": {
+              "id": 6,
+              "nombre": "Subasta 6",
+              "descripcion": "Descripción de la subasta 6",
+              "fechaInicio": "2023-04-05",
+              "fechaFin": "2023-04-15"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "comprador": {
+        "nombre": "Alice Williams",
+        "limiteCompra": 2500.0,
+        "saldo": 9000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 500.0,
+            "subasta": {
+              "id": 7,
+              "nombre": "Subasta 7",
+              "descripcion": "Descripción de la subasta 7",
+              "fechaInicio": "2023-04-10",
+              "fechaFin": "2023-04-20"
+            }
+          },
+          {
+            "monto": 600.0,
+            "subasta": {
+              "id": 8,
+              "nombre": "Subasta 8",
+              "descripcion": "Descripción de la subasta 8",
+              "fechaInicio": "2023-04-15",
+              "fechaFin": "2023-04-25"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "comprador": {
+        "nombre": "Charlie Brown",
+        "limiteCompra": 3000.0,
+        "saldo": 10000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 700.0,
+            "subasta": {
+              "id": 9,
+              "nombre": "Subasta 9",
+              "descripcion": "Descripción de la subasta 9",
+              "fechaInicio": "2023-04-20",
+              "fechaFin": "2023-04-30"
+            }
+          },
+          {
+            "monto": 800.0,
+            "subasta": {
+              "id": 10,
+              "nombre": "Subasta 10",
+              "descripcion": "Descripción de la subasta 10",
+              "fechaInicio": "2023-04-25",
+              "fechaFin": "2023-05-05"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "comprador": {
+        "nombre": "David Davis",
+        "limiteCompra": 3500.0,
+        "saldo": 11000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 800.0,
+            "subasta": {
+              "id": 11,
+              "nombre": "Subasta 11",
+              "descripcion": "Descripción de la subasta 11",
+              "fechaInicio": "2023-05-05",
+              "fechaFin": "2023-05-15"
+            }
+          },
+          {
+            "monto": 900.0,
+            "subasta": {
+              "id": 12,
+              "nombre": "Subasta 12",
+             "descripcion": "Descripción de la subasta 12",
+              "fechaInicio": "2023-05-10",
+              "fechaFin": "2023-05-20"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "comprador": {
+        "nombre": "Eva Evans",
+        "limiteCompra": 4000.0,
+        "saldo": 12000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 1000.0,
+            "subasta": {
+              "id": 13,
+              "nombre": "Subasta 13",
+              "descripcion": "Descripción de la subasta 13",
+              "fechaInicio": "2023-05-15",
+              "fechaFin": "2023-05-25"
+            }
+          },
+          {
+            "monto": 1100.0,
+            "subasta": {
+              "id": 14,
+              "nombre": "Subasta 14",
+              "descripcion": "Descripción de la subasta 14",
+              "fechaInicio": "2023-05-20",
+              "fechaFin": "2023-05-30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "comprador": {
+        "nombre": "Frank Frank",
+        "limiteCompra": 4500.0,
+        "saldo": 13000.0,
+        "ofertasRealizadas": [
+          {
+            "monto": 1200.0,
+            "subasta": {
+              "id": 15,
+              "nombre": "Subasta 15",
+              "descripcion": "Descripción de la subasta 15",
+              "fechaInicio": "2023-05-30",
+              "fechaFin": "2023-06-09"
+            }
+          },
+          {
+            "monto": 1300.0,
+            "subasta": {
+              "id": 16,
+              "nombre": "Subasta 16",
+              "descripcion": "Descripción de la subasta 4",
+              "fechaInicio": "2023-03-25",
+              "fechaFin": "2023-04-05"
+            }
+        }
+      ]
+    }
+  },
+  {
+    "comprador": {
+      "nombre": "Grace Green",
+      "limiteCompra": 5000.0,
+      "saldo": 14000.0,
+      "ofertasRealizadas": [
+        {
+          "monto": 1500.0,
+          "subasta": {
+            "id": 17,
+            "nombre": "Subasta 17",
+            "descripcion": "Descripción de la subasta 17",
+            "fechaInicio": "2023-06-10",
+            "fechaFin": "2023-06-20"
+          }
+        },
+        {
+          "monto": 1600.0,
+          "subasta": {
+            "id": 18,
+            "nombre": "Subasta 18",
+            "descripcion": "Descripción de la subasta 18",
+            "fechaInicio": "2023-06-15",
+            "fechaFin": "2023-06-25"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "comprador": {
+      "nombre": "Harry Hill",
+      "limiteCompra": 5500.0,
+      "saldo": 15000.0,
+      "ofertasRealizadas": [
+        {
+          "monto": 1700.0,
+          "subasta": {
+            "id": 19,
+            "nombre": "Subasta 19",
+            "descripcion": "Descripción de la subasta 19",
+            "fechaInicio": "2023-06-20",
+            "fechaFin": "2023-06-30"
+          }
+        },
+        {
+          "monto": 1800.0,
+          "subasta": {
+            "id": 20,
+            "nombre": "Subasta 20",
+            "descripcion": "Descripción de la subasta 20",
+            "fechaInicio": "2023-06-25",
+            "fechaFin": "2023-07-05"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,128 @@
+{
+    "pagos": [
+      {
+        "metodoPago": "Tarjeta de crédito",
+        "monto": 200.0,
+        "cuotas": 1,
+        "fecha": "2023-03-01",
+        "comprador": "Jane Smith"
+      },
+      {
+        "metodoPago": "Tarjeta de débito",
+        "monto": 300.0,
+        "cuotas": 1,
+        "fecha": "2023-03-10",
+        "comprador": "Bob Johnson"
+      },
+      {
+        "metodoPago": "Efectivo",
+        "monto": 500.0,
+        "cuotas": 0,
+        "fecha": "2023-03-20",
+        "comprador": "Alice Williams"
+      },
+      {
+        "metodoPago": "Cheque",
+        "monto": 700.0,
+        "cuotas": 0,
+        "fecha": "2023-03-30",
+        "comprador": "Charlie Brown"
+      },
+      {
+        "metodoPago": "Transferencia bancaria",
+        "monto": 800.0,
+        "cuotas": 0,
+        "fecha": "2023-04-10",
+        "comprador": "David Davis"
+      },
+      {
+        "metodoPago": "Tarjeta de crédito",
+        "monto": 1000.0,
+        "cuotas": 3,
+        "fecha": "2023-04-20",
+        "comprador": "Eva Evans"
+      },
+      {
+        "metodoPago": "Tarjeta de débito",
+        "monto": 1100.0,
+        "cuotas": 1,
+        "fecha": "2023-04-30",
+        "comprador": "Frank Frank"
+      },
+      {
+        "metodoPago": "Efectivo",
+        "monto": 1200.0,
+        "cuotas": 0,
+        "fecha": "2023-05-10",
+        "comprador": "Grace Green"
+      },
+      {
+        "metodoPago": "Cheque",
+        "monto": 1300.0,
+        "cuotas": 0,
+        "fecha": "2023-05-20",
+        "comprador": "Harry Hill"
+      },
+      {
+        "metodoPago": "Transferencia bancaria",
+        "monto": 1500.0,
+        "cuotas": 0,
+        "fecha": "2023-05-30",
+        "comprador": "Jane Smith"
+      },
+      {
+        "metodoPago": "Tarjeta de crédito",
+        "monto": 1600.0,
+        "cuotas": 2,
+        "fecha": "2023-06-10",
+        "comprador": "Bob Johnson"
+      },
+      {
+        "metodoPago": "Tarjeta de débito",
+        "monto": 1700.0,
+        "cuotas": 1,
+        "fecha": "2023-06-20",
+        "comprador": "Alice Williams"
+      },
+      {
+        "metodoPago": "Efectivo",
+        "monto": 1800.0,
+        "cuotas": 0,
+        "fecha": "2023-06-30",
+        "comprador": "Charlie Brown"
+      },
+      {
+        "metodoPago": "Cheque",
+        "monto": 2000.0,
+        "cuotas": 0,
+        "fecha": "2023-07-10",
+        "comprador": "David Davis"
+      },
+      {
+        "metodoPago": "Transferencia bancaria",
+        "monto": 2100.0,
+        "cuotas": 0,
+        "fecha": "2023-07-20",
+        "comprador": "Eva Evans"
+      },
+      {
+        "metodoPago": "Tarjeta de crédito",
+        "monto": 2200.0,
+        "cuotas": 3,
+        "fecha": "2023-07-30",
+        "comprador": "Frank Frank"
+      },
+      {
+        "metodoPago": "Tarjeta de débito",
+        "monto": 2300.0,
+        "cuotas": 1,
+        "fecha": "2023-08-10",
+        "comprador": "Grace Green"
+      },
+      {
+        "metodoPago": "Efectivo",
+        "monto": 2400.0,
+        "cuotas": 0,
+        "fecha": "2023-08-20",
+        "comprador": "Harry Hill"
+      }
