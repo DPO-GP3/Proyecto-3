@@ -25,6 +25,7 @@ public class PersistenciaPagosJson implements IPersistenciaPagos {
 
         casaSubastas.setPagos(pagos);
     }
+    
 
     @Override
     public void salvarPagos(String archivo, Subasta casaSubastas) throws IOException {
