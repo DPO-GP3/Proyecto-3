@@ -9,7 +9,6 @@ import P1.Administrador;
 import P1.Pieza;
 import P1.Pintura;
 import P1.Escultura;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +25,16 @@ public class PanelAdministrador extends JPanel {
 
     private void initUI() {
         setLayout(new BorderLayout());
+        
+        JButton heatmapButton = new JButton("Mostrar Heatmap");
+        heatmapButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                controller.mostrarHeatmap();
+            }
+        });
+
+        add(heatmapButton, BorderLayout.NORTH);
 
         JPanel panelBotones = new JPanel();
         panelBotones.setLayout(new GridBagLayout());
@@ -145,4 +154,3 @@ public class PanelAdministrador extends JPanel {
         return piezas;
     }
 }
-

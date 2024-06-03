@@ -1,7 +1,6 @@
 package interfaade;
 
 import javax.swing.*;
-import java.awt.color.*;
 import java.awt.*;
 import Controller.Controller;
 

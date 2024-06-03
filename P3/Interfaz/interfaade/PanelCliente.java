@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import Controller.Controller;
 import P1.Comprador;
 import P1.Escultura;
+import P1.Pago;
 import P1.Subasta;
 import P1.Pieza;
 import P1.Pintura;
@@ -59,6 +60,15 @@ public class PanelCliente extends JPanel {
         });
         panelBotones.add(btnRealizarCompra, gbc);
 
+        JButton btnRealizarPagoConTarjeta = new JButton("Realizar Pago con Tarjeta");
+        btnRealizarPagoConTarjeta.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                realizarPagoConTarjeta();
+            }
+        });
+        panelBotones.add(btnRealizarPagoConTarjeta, gbc);
+
         add(panelBotones, BorderLayout.WEST);
         add(scrollPane, BorderLayout.CENTER);
     }
@@ -85,6 +95,45 @@ public class PanelCliente extends JPanel {
             textArea.append("Intentando comprar: " + pieza.getTitulo() + "\n");
         }
     }
+
+    private void realizarPagoConTarjeta() {
+        // Diálogo para obtener los datos necesarios
+        String tipoPasarela = JOptionPane.showInputDialog(this, "Ingrese el tipo de pasarela (PayPal, PayU):");
+        if (tipoPasarela == null || tipoPasarela.isEmpty()) {
+            textArea.append("Error: No se ingresó el tipo de pasarela.\n");
+            return;
+        }
+
+        String numeroTarjeta = JOptionPane.showInputDialog(this, "Ingrese el número de tarjeta:");
+        if (numeroTarjeta == null || numeroTarjeta.isEmpty()) {
+            textArea.append("Error: No se ingresó el número de tarjeta.\n");
+            return;
+        }
+
+        String cvv = JOptionPane.showInputDialog(this, "Ingrese el CVV:");
+        if (cvv == null || cvv.isEmpty()) {
+            textArea.append("Error: No se ingresó el CVV.\n");
+            return;
+        }
+
+        String fechaExpiracion = JOptionPane.showInputDialog(this, "Ingrese la fecha de expiración (MM/AA):");
+        if (fechaExpiracion == null || fechaExpiracion.isEmpty() || !fechaExpiracion.matches("\\d{2}/\\d{2}")) {
+            textArea.append("Error: La fecha de expiración no se ingresó o es inválida. Debe estar en formato MM/AA.\n");
+            return;
+        }
+
+        // Crear un objeto Pago de ejemplo
+        Pago pago = new Pago(comprador.getNombre(), "Tarjeta de crédito", 100.0, 1);
+
+        boolean resultado = controller.procesarPagoConTarjeta(pago, tipoPasarela, numeroTarjeta, cvv, fechaExpiracion);
+
+        if (resultado) {
+            textArea.append("Pago procesado exitosamente con " + tipoPasarela + "\n");
+        } else {
+            textArea.append("Error al procesar el pago con " + tipoPasarela + "\n");
+        }
+    }
+
 
     private List<Pieza> getPiezasParaComprar() {
         // Aquí debes implementar cómo obtendrás la lista de piezas para comprar.

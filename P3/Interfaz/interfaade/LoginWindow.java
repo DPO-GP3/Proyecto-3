@@ -1,9 +1,9 @@
 package interfaade;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.ImageIcon;
 import Controller.Controller;
 
 public class LoginWindow extends JFrame {
@@ -86,5 +86,14 @@ public class LoginWindow extends JFrame {
         pack(); // Adjust window size to fit components
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Center window on screen
+    }
+
+    public static void main(String[] args) {
+        Controller controller = new Controller();
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new LoginWindow(controller).setVisible(true);
+            }
+        });
     }
 }
